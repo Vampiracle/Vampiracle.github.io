@@ -5,42 +5,44 @@
     <meta name="keywords" content="Скрыль Никита, М33081, сайт, портфолио">
     <meta name="description" content="Сайт-портфолио студента ИТМО группы М33081 Скрыль Никиты">
     <title>Скрыль Никита</title>
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
-<header>
 
 
+<header class="page_nav">
     <nav>
-        <ul>
-            <li><a href="#about-me">Обо мне</a>
-            <li><a href="#portfolio">Портфолио</a>
-            <li><a href="#contact">Контакты</a>
-                <h1>Привет! Я Скрыль Никита, учусь в ИТМО в группе М33081 на 3 курсе</h1>
+        <ul class="menu">
+            <li class="menu__link"><a href="#about-me" class="menu__a">Обо мне</a></li>
+            <li class="menu__link"><a href="#portfolio" class="menu__a">Портфолио</a></li>
+            <li class="menu__link"><a href="#contact" class="menu__a">Контакты</a></li>
         </ul>
+
     </nav>
 </header>
 <main>
-    <section id="about-me">
-        <!-- logo -->
-        <h2>Обо мне</h2>
-        <p><i>Я Никита. Это мое первое портфолио и попытка в Web</i></p>
-        <img src="img\joba2.png" alt="Фотография профиля">
+    <section class="intro" id="about-me">
+
+
+        <p class = "intro__borders"><i>Я Никита. Это мое первое портфолио и попытка в Web</i></p>
+        <img class="image" src="img\joba2.png" alt="Фотография профиля">
 
 
     </section>
     <section id="portfolio">
         <h2>Мое портфолио</h2>
-        <ul>
-            <li>Языки программирования: <b>Python 3.x</b>, <b>C#</b></li>
-            <li>Библиотеки: sklearn, pandas, numpy, <b>TensorFlow</b></li>
-            <li>Прочее: VK API, Excel, ООП, Алгоритмы и структуры данных, SQL</li>
+        <ul class = "line__height__portfolio">
+            <li class = "list__description">Языки программирования: <b>Python 3.x</b>, <b>C#</b></li>
+            <li class = "list__description">Библиотеки: sklearn, pandas, numpy, <b>TensorFlow</b></li>
+            <li class = "list__description">Прочее: VK API, Excel, ООП, Алгоритмы и структуры данных, SQL</li>
         </ul>
 
         <h4>Мои мини-проекты</h4>
-        <ol>
-            <li>Simpson's characters classification</li>
-            <li>VK-online tracking with VK API</li>
-            <li>HoMM-like game on <b>C#</b></li>
+        <ol class = "line__height__portfolio">
+            <li class = "list__description">Simpson's characters classification</li>
+            <li class = "list__description">VK-online tracking with VK API</li>
+            <li class = "list__description">HoMM-like game on <b>C#</b></li>
         </ol>
 
         <h4>Мой код</h4>
@@ -58,7 +60,7 @@
             </pre>
 
         <h2>A...mogus???</h2>
-        <pre>
+        <pre class = "ascii">
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀
@@ -83,16 +85,17 @@
 
     </section>
 
-    <section id="quote">
+    <section id="quote" class = "quote">
         <h2>Цитата</h2>
-        <blockquote>
+        <blockquote class = "quote__style">
             <p>Не стоит путать небо со звездами, отраженными ночью в поверхности пруда.</p>
-            <cite><sub>Саша Камень</sub></cite>
+            <cite><sub><s>Саша Камень</s> Вильгефорц</sub></cite>
         </blockquote>
     </section>
 </main>
 <footer>
-    <p><a href="https://vk.com/id240583175">Можете посмотреть мой вк и дать отдых глазам</a></p>
+    <hr id="contact">
+    <p><a class = "footer__refs" href="https://vk.com/id240583175">Можете посмотреть мой вк и дать отдых глазам</a></p>
 </footer>
 </body>
 </html>

@@ -1,0 +1,111 @@
+body {
+
+    margin: 0;
+    color: #000000;
+    font-size: 130%;
+    font-family: system-ui;
+    background: #FFFFFF;
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    background: #F0E98C;
+}
+
+footer {
+    text-align: center;
+    /*background: #E3BDF0;*/
+    text-decoration: none;
+
+}
+
+section {
+    border: outset #d31c3e;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.intro
+{
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.page_nav {
+
+
+    min-width: 100%;
+    max-height: 20%;
+    position: fixed;
+
+    box-shadow: 0 0 20px #E07A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.menu
+{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+
+}
+
+
+.menu__link
+{
+    padding: 0;
+    margin-right: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.menu__a
+{
+    font-size: 22px;
+    text-decoration: none;
+    color: #00313D;
+
+}
+.footer__refs {
+    text-decoration: none;
+}
+
+.ascii {
+    text-align: center;
+
+}
+.quote {
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+.line__height__portfolio {
+    line-height: 2;
+}
+
+.quote__style {
+    text-transform: uppercase;
+}
+
+.list__description
+{
+    font-style: italic;
+}
+
+
+
+
