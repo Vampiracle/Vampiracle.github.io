@@ -17,7 +17,7 @@ header {
 
 footer {
     text-align: center;
-    /*background: #E3BDF0;*/
+
     text-decoration: none;
 
 }
@@ -70,6 +70,7 @@ section {
     margin-right: 40px;
     text-align: center;
     align-items: center;
+    background-color: #F0E98C;
 
 }
 
@@ -78,6 +79,7 @@ section {
     font-size: 22px;
     text-decoration: none;
     color: #00313D;
+    background-color: #F0E98C;
 
 }
 .footer__refs {
@@ -106,6 +108,30 @@ section {
     font-style: italic;
 }
 
+li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.main__table
+{
+    display: grid;
+    text-align: center;
+    margin: 2% 3%;
+    font-size: 120%;
+    border-spacing: 15px 15px;
+}
+
+.main__table__content:nth-child(2n)
+{
+    background: #f0f0f0;
+}
+
+@media screen and (max-device-width: 1000px) {
+    .main__table
+    {
+        display: none;
+    }
+}
 
 
 
