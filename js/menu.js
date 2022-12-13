@@ -1,8 +1,8 @@
 document.writeln('<nav id="my_menu">');
 document.writeln('            <ul class="menu">');
-document.writeln('                <li class="menu__link"><a href="../ItmoWeb/index.html" class="menu__a" id="menu__a__id">Главная</a></li>');
-document.writeln('                <li class="menu__link"><a href="../ItmoWeb/skills.html" class="menu__a" id="menu__a__id">Скиллы и портфолио</a></li>');
-document.writeln('                <li class="menu__link"><a href="../ItmoWeb/another.html" class="menu__a" id="menu__a__id">Контакты и др.</a></li>');
+document.writeln('                <li class="menu__link"><a href="../index.html" class="menu__a" id="menu__a__id">Главная</a></li>');
+document.writeln('                <li class="menu__link"><a href="../skills.html" class="menu__a" id="menu__a__id">Скиллы и портфолио</a></li>');
+document.writeln('                <li class="menu__link"><a href="../another.html" class="menu__a" id="menu__a__id">Контакты и др.</a></li>');
 document.writeln('            </ul>');
 document.writeln('        </nav>');
 
